@@ -1,0 +1,20 @@
+SiiNunit
+{
+accessory_wheel_data : 50k.385_60_mich.ftire
+{
+	name: "50k customs: MICH 385/60"
+	price: 2000
+	unlock: 10
+	model: "/vehicle/truck/upgrade/tire/50k_front/385_60.pmd"
+	icon: "50k_tyre_mich_f"
+	front_wheel:true
+	look: mich
+	
+	suitable_for[]: 50k.alcoa_man.frim
+	suitable_for[]: 50k.alcoa_daf.frim
+	suitable_for[]: 50k.alcoa_mb.frim
+	suitable_for[]: 50k.alcoa_volvo.frim
+	suitable_for[]: 50k.alcoa_scania.frim
+
+}
+}

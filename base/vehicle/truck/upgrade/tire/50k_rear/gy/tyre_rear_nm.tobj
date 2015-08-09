@@ -1,0 +1,3 @@
+map	2d	tyre_rear_nm.tga
+addr	clamp_to_edge	clamp_to_edge
+usage	tsnormal

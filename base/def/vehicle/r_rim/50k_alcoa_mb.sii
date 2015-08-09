@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.alcoa_mb.rrim
+{
+	name: "50k customs: ALCOA MERC-BENZ"
+	price: 744
+	unlock: 6
+	model: "/vehicle/truck/upgrade/rim/50k_alcoa/rear_mb.pmd"
+	icon: "50k_alcoa_mb_r"
+	front_rim: false
+}
+}

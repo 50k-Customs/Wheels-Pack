@@ -1,0 +1,19 @@
+SiiNunit
+{
+accessory_wheel_data : 50k.295_80_mich.rtire
+{
+	name: "50k customs: MICHELIN 295/80"
+	price: 1400
+	unlock: 6
+	model: "/vehicle/truck/upgrade/tire/50k_rear/295_80.pmd"
+	icon: "50k_tyre_mich_r"
+	front_wheel:false
+	look: mich
+	
+	suitable_for[]: 50k.alcoa_man.rrim
+	suitable_for[]: 50k.alcoa_daf.rrim
+	suitable_for[]: 50k.alcoa_mb.rrim
+	suitable_for[]: 50k.alcoa_volvo.rrim
+	suitable_for[]: 50k.alcoa_scania.rrim
+}
+}

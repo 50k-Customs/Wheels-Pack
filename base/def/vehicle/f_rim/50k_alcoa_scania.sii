@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.alcoa_scania.frim
+{
+	name: "50k customs: ALCOA SCANIA"
+	price: 744
+	unlock: 6
+	model: "/vehicle/truck/upgrade/rim/50k_alcoa/front_scania.pmd"
+	icon: "50k_alcoa_scania_f"
+	front_rim: true
+}
+}
