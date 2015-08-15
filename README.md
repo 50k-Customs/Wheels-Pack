@@ -9,8 +9,8 @@ Mod presents new sets of rims and tires for the player turck in Euro Truck Simul
 
 ### USAGE
 
-Most recent direct mod download and all needed info can be found here: 
-**[v1.19 - 9. 8. 2015](release/v1.19)**
+Most recent direct mod download and all needed info can be found here 
+**[@LATEST VERSION](../../releases/latest)**
 
 ***For advanced usage:***
 
