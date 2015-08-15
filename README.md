@@ -42,5 +42,7 @@ For now none. It was tested on 1.19.2.1s game version
 This is known todo list for this mod:
 - variants with safety ring
 - heavy duty rim
+- real IVECO front axle -> [Issue#1](../../issues/1)
+- improved MAN rear axle -> [Issue#1](../../issues/1)
 
 If you have a suggestions use Issues on github to report it ;)
