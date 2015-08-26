@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.alcoa_daf.sr.frim
+{
+	name: "50k customs: ALCOA SR DAF"
+	price: 944
+	unlock: 6
+	model: "/vehicle/truck/upgrade/rim/50k_alcoa/front_sr_daf.pmd"
+	icon: "50k_alcoa_sr_daf_f"
+	front_rim: true
+}
+}

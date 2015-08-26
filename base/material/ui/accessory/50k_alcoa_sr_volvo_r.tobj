@@ -1,0 +1,5 @@
+map	2d	50k_alcoa_sr_volvo_r.tga
+addr	clamp_to_edge	clamp_to_edge
+nomips
+nocompress
+color_space linear
