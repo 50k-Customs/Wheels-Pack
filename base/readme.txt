@@ -1,6 +1,6 @@
 Wheels Pack by 50keda featuring:
 
-- 72 in-game combinations
+- endless in-game combinations
 - featuring 6 truck brands
 - featuring 2 tyre brands
 - 3 sizes of front tyres
@@ -8,7 +8,7 @@ Wheels Pack by 50keda featuring:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- adopted to 1.19 standards with mod description files
+- 10 new rims with safety rings
 
 ### CREDITS
 
