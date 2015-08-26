@@ -15,5 +15,10 @@ accessory_wheel_data : 50k.295_80_mich.rtire
 	suitable_for[]: 50k.alcoa_mb.rrim
 	suitable_for[]: 50k.alcoa_volvo.rrim
 	suitable_for[]: 50k.alcoa_scania.rrim
+	suitable_for[]: 50k.alcoa_man.sr.rrim
+	suitable_for[]: 50k.alcoa_daf.sr.rrim
+	suitable_for[]: 50k.alcoa_mb.sr.rrim
+	suitable_for[]: 50k.alcoa_volvo.sr.rrim
+	suitable_for[]: 50k.alcoa_scania.sr.rrim
 }
 }
