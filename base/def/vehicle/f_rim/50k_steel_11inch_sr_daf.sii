@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.steel11.daf.sr.frim
+{
+	name: "50k customs: steel 11' SR DAF"
+	price: 844
+	unlock: 5
+	model: "/vehicle/truck/upgrade/rim/50k_steel_11inch/front_sr_daf.pmd"
+	icon: "50k_steel11_sr_daf_f"
+	front_rim: true
+}
+}

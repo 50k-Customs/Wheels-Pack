@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.steel11.man.frim
+{
+	name: "50k customs: steel 11' MAN"
+	price: 744
+	unlock: 5
+	model: "/vehicle/truck/upgrade/rim/50k_steel_11inch/front_man.pmd"
+	icon: "50k_steel11_man_f"
+	front_rim: true
+}
+}
