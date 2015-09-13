@@ -7,7 +7,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5"
+    Source: "Blender 2.75.0 (hash: c27589e), SCS Blender Tools: 0.6.4a602d1"
     Type: "Trait"
     Name: "rear_man"
 }
@@ -22,7 +22,7 @@ Look {
     Material {
         Alias: "axle_man"
         Effect: "eut2.dif.spec.tsnmapuv"
-        Flags: 0
+        Flags: 1
         AttributeCount: 5
         TextureCount: 2
         Attribute {
@@ -52,7 +52,7 @@ Look {
         }
         Texture {
             Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/upgrade/rim/50k_shared/axle_man_r_n"
+            Value: "/vehicle/truck/upgrade/rim/50k_shared/axle_iveco_r_n"
         }
         Texture {
             Tag: "texture[1]:texture_base"
@@ -62,7 +62,7 @@ Look {
     Material {
         Alias: "alcoa_logo"
         Effect: "eut2.dif.over"
-        Flags: 0
+        Flags: 1
         AttributeCount: 5
         TextureCount: 1
         Attribute {
@@ -98,7 +98,7 @@ Look {
     Material {
         Alias: "rim"
         Effect: "eut2.dif.spec.add.env"
-        Flags: 0
+        Flags: 1
         AttributeCount: 7
         TextureCount: 2
         Attribute {
@@ -148,7 +148,7 @@ Look {
     Material {
         Alias: "screws"
         Effect: "eut2.dif.spec.add.env.tsnmapuv"
-        Flags: 0
+        Flags: 1
         AttributeCount: 7
         TextureCount: 3
         Attribute {
@@ -202,7 +202,7 @@ Look {
     Material {
         Alias: "plastic"
         Effect: "eut2.dif.spec"
-        Flags: 0
+        Flags: 1
         AttributeCount: 5
         TextureCount: 1
         Attribute {
@@ -238,7 +238,7 @@ Look {
     Material {
         Alias: "shadowonly"
         Effect: "eut2.shadowonly"
-        Flags: 0
+        Flags: 1
         AttributeCount: 1
         TextureCount: 0
         Attribute {
