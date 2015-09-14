@@ -6,7 +6,7 @@ accessory_rim_data : 50k.alcoa_volvo.sr.rrim
 	price: 944
 	unlock: 6
 	model: "/vehicle/truck/upgrade/rim/50k_alcoa/rear_sr_volvo.pmd"
-	icon: "50k_alcoa_sr_volvo_r"
+	icon: "50k_alcoa_sr_r"
 	front_rim: false
 }
 }

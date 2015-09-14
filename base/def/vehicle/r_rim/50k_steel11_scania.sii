@@ -6,7 +6,7 @@ accessory_rim_data : 50k.steel11.scania.rrim
 	price: 544
 	unlock: 5
 	model: "/vehicle/truck/upgrade/rim/50k_steel_11inch/rear_scania.pmd"
-	icon: "50k_steel11_scania_r"
+	icon: "50k_steel11_r"
 	front_rim: false
 }
 }

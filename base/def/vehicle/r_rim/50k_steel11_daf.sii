@@ -6,7 +6,7 @@ accessory_rim_data : 50k.steel11.daf.rrim
 	price: 544
 	unlock: 5
 	model: "/vehicle/truck/upgrade/rim/50k_steel_11inch/rear_daf.pmd"
-	icon: "50k_steel11_daf_r"
+	icon: "50k_steel11_r"
 	front_rim: false
 }
 }

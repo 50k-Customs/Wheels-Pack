@@ -10,15 +10,7 @@ accessory_wheel_data : 50k.295_80_gy.rtire
 	front_wheel:false
 	look: gy
 	
-	suitable_for[]: 50k.alcoa_man.rrim
-	suitable_for[]: 50k.alcoa_daf.rrim
-	suitable_for[]: 50k.alcoa_mb.rrim
-	suitable_for[]: 50k.alcoa_volvo.rrim
-	suitable_for[]: 50k.alcoa_scania.rrim
-	suitable_for[]: 50k.alcoa_man.sr.rrim
-	suitable_for[]: 50k.alcoa_daf.sr.rrim
-	suitable_for[]: 50k.alcoa_mb.sr.rrim
-	suitable_for[]: 50k.alcoa_volvo.sr.rrim
-	suitable_for[]: 50k.alcoa_scania.sr.rrim
+@include "/def/vehicle/r_tire/50k_rtire_suitable.sui"
+
 }
 }

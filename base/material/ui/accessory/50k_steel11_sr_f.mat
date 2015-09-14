@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "50k_steel11_sr_f.tobj"
+	texture_name : "texture"
+}

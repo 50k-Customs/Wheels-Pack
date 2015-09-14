@@ -6,7 +6,7 @@ accessory_rim_data : 50k.alcoa_scania.rrim
 	price: 744
 	unlock: 6
 	model: "/vehicle/truck/upgrade/rim/50k_alcoa/rear_scania.pmd"
-	icon: "50k_alcoa_scania_r"
+	icon: "50k_alcoa_r"
 	front_rim: false
 }
 }

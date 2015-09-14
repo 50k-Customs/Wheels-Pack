@@ -6,7 +6,7 @@ accessory_rim_data : 50k.steel11.mb.frim
 	price: 744
 	unlock: 5
 	model: "/vehicle/truck/upgrade/rim/50k_steel_11inch/front_mb.pmd"
-	icon: "50k_steel11_mb_f"
+	icon: "50k_steel11_f"
 	front_rim: true
 }
 }

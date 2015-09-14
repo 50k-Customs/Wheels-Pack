@@ -6,7 +6,7 @@ accessory_rim_data : 50k.alcoa_man.frim
 	price: 744
 	unlock: 6
 	model: "/vehicle/truck/upgrade/rim/50k_alcoa/front_man.pmd"
-	icon: "50k_alcoa_man_f"
+	icon: "50k_alcoa_f"
 	front_rim: true
 }
 }

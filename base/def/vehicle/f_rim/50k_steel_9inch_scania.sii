@@ -6,7 +6,7 @@ accessory_rim_data : 50k.steel9.scania.frim
 	price: 544
 	unlock: 4
 	model: "/vehicle/truck/upgrade/rim/50k_steel_9inch/front_scania.pmd"
-	icon: "50k_steel9_scania_f"
+	icon: "50k_steel9_f"
 	front_rim: true
 }
 }
