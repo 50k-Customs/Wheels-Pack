@@ -15,46 +15,10 @@ Global {
     LookCount: 1
     VariantCount: 2
     PartCount: 2
-    MaterialCount: 7
+    MaterialCount: 6
 }
 Look {
     Name: "default"
-    Material {
-        Alias: "alcoa_logo"
-        Effect: "eut2.dif.over"
-        Flags: 1
-        AttributeCount: 5
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.0 0.0 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 50.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/upgrade/rim/50k_alcoa/alcoa_logo"
-        }
-    }
     Material {
         Alias: "axle_volvo"
         Effect: "eut2.dif.spec.tsnmapuv"
@@ -144,46 +108,6 @@ Look {
         }
     }
     Material {
-        Alias: "screws"
-        Effect: "eut2.dif.spec.tsnmapuv"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 2
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 0.5070568323135376 0.5070568323135376 0.5070568323135376 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.5277072191238403 0.5277072191238403 0.5277072191238403 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 50.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/upgrade/rim/50k_alcoa/screws_n"
-        }
-        Texture {
-            Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/upgrade/rim/50k_alcoa/rim"
-        }
-    }
-    Material {
         Alias: "rim"
         Effect: "eut2.dif.spec"
         Flags: 0
@@ -267,6 +191,46 @@ Look {
         Texture {
             Tag: "texture[1]:texture_reflection"
             Value: "/material/environment/vehicle_reflection"
+        }
+    }
+    Material {
+        Alias: "screws"
+        Effect: "eut2.dif.spec.tsnmapuv"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 0.5070568323135376 0.5070568323135376 0.5070568323135376 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.5277072191238403 0.5277072191238403 0.5277072191238403 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 50.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/rim/50k_alcoa/screws_n"
+        }
+        Texture {
+            Tag: "texture[1]:texture_base"
+            Value: "/vehicle/truck/upgrade/rim/50k_alcoa/rim"
         }
     }
 }

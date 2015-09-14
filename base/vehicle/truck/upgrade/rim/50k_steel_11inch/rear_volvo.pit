@@ -15,46 +15,10 @@ Global {
     LookCount: 1
     VariantCount: 2
     PartCount: 2
-    MaterialCount: 6
+    MaterialCount: 5
 }
 Look {
     Name: "default"
-    Material {
-        Alias: "alcoa_logo"
-        Effect: "eut2.dif.over"
-        Flags: 1
-        AttributeCount: 5
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.0 0.0 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 50.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/upgrade/rim/50k_alcoa/alcoa_logo"
-        }
-    }
     Material {
         Alias: "axle_volvo"
         Effect: "eut2.dif.spec.tsnmapuv"
@@ -144,6 +108,42 @@ Look {
         }
     }
     Material {
+        Alias: "rim"
+        Effect: "eut2.dif.spec"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.7480000257492065 0.7480000257492065 0.7480000257492065 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 25.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/rim/50k_steel_11inch/rim_11inch_rear"
+        }
+    }
+    Material {
         Alias: "screws"
         Effect: "eut2.dif.spec.tsnmapuv"
         Flags: 0
@@ -183,54 +183,9 @@ Look {
             Value: "/vehicle/truck/upgrade/rim/50k_alcoa/rim"
         }
     }
-    Material {
-        Alias: "rim"
-        Effect: "eut2.dif.spec"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.7480000257492065 0.7480000257492065 0.7480000257492065 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 25.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/upgrade/rim/50k_steel_11inch/rim_11inch_rear"
-        }
-    }
 }
 Variant {
     Name: "left"
-    Part {
-        Name: "l"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 1 )
-        }
-    }
     Part {
         Name: "r"
         AttributeCount: 1
@@ -238,27 +193,36 @@ Variant {
             Format: INT
             Tag: "visible"
             Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "l"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
         }
     }
 }
 Variant {
     Name: "right"
     Part {
-        Name: "l"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
         Name: "r"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
             Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "l"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
         }
     }
 }

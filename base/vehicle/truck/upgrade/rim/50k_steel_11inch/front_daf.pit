@@ -20,6 +20,58 @@ Global {
 Look {
     Name: "default"
     Material {
+        Alias: "axle_daf"
+        Effect: "eut2.dif.spec.tsnmapuv"
+        Flags: 1
+        AttributeCount: 5
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.4392569959163666 0.4805290102958679 0.4969159960746765 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 25.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/rim/50k_shared/axle_daf_n"
+        }
+        Texture {
+            Tag: "texture[1]:texture_base"
+            Value: "/vehicle/truck/upgrade/rim/50k_shared/axle_daf"
+        }
+    }
+    Material {
+        Alias: "shadowonly"
+        Effect: "eut2.shadowonly"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 0
+        Attribute {
+            Format: FLOAT
+            Tag: "shadow_bias"
+            Value: ( 0.0 )
+        }
+    }
+    Material {
         Alias: "plastic"
         Effect: "eut2.dif.spec"
         Flags: 1
@@ -96,58 +148,6 @@ Look {
         }
     }
     Material {
-        Alias: "axle_daf"
-        Effect: "eut2.dif.spec.tsnmapuv"
-        Flags: 1
-        AttributeCount: 5
-        TextureCount: 2
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.4392569959163666 0.4805290102958679 0.4969159960746765 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 25.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/upgrade/rim/50k_shared/axle_daf_n"
-        }
-        Texture {
-            Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/upgrade/rim/50k_shared/axle_daf"
-        }
-    }
-    Material {
-        Alias: "shadowonly"
-        Effect: "eut2.shadowonly"
-        Flags: 1
-        AttributeCount: 1
-        TextureCount: 0
-        Attribute {
-            Format: FLOAT
-            Tag: "shadow_bias"
-            Value: ( 0.0 )
-        }
-    }
-    Material {
         Alias: "Material.001"
         Effect: "eut2.dif.spec"
         Flags: 0
@@ -187,42 +187,42 @@ Look {
 Variant {
     Name: "left"
     Part {
-        Name: "l"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 1 )
-        }
-    }
-    Part {
         Name: "r"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
             Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "l"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
         }
     }
 }
 Variant {
     Name: "right"
     Part {
-        Name: "l"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
         Name: "r"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
             Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "l"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
         }
     }
 }
