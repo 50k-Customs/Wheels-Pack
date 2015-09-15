@@ -2,9 +2,13 @@
 
 This repository is meant for wheels pack mod by 50k for Euro Truck Simulator 2.
 
-Mod presents new sets of rims and tires for the player turck in Euro Truck Simulator 2.
+Mod presents new sets of rims and tires for the player truck in Euro Truck Simulator 2.
 
+ALCOA:
 ![](/preview/promo_120.jpg?raw=true "1.20 promo")
+
+STEEL:
+![](/preview/promo_2_0.jpg?raw=true "2.0 promo")
 
 
 ### USAGE
@@ -34,14 +38,10 @@ If you found bug or you have any reference material of truck wheels please use I
 
 ### ISSUES
 
-For now none. It was tested on 1.19.2.1s game version
+For now none. It was tested on 1.20.1s game version
 
 
 ### TODO
 
 This is known todo list for this mod:
 - heavy duty rim
-- real IVECO front axle -> [Issue#1](../../issues/1)
-- improved MAN rear axle -> [Issue#1](../../issues/1)
-
-If you have a suggestions use Issues on github to report it ;)

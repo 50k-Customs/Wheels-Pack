@@ -1,6 +1,10 @@
 Wheels Pack by 50keda featuring:
 
-- endless in-game combinations
+- 60 different rim models
+ - 4 steel front rim variants for each truck brand
+ - 2 alcoa front rim variants for each truck brand
+ - 2 steel rear rim variants for each truck brand
+ - 2 alcoa rear rim variants for each truck brand
 - featuring 6 truck brands
 - featuring 2 tyre brands
 - 3 sizes of front tyres
@@ -8,12 +12,17 @@ Wheels Pack by 50keda featuring:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- 10 new rims with safety rings
+- added IVECO front axle hub
+- added improved MAN rear axle hub
+- 4 steel front rim variants for each truck brand
+- 2 steel rear rim variants for each truck brand
+- fixed suitables for tyres on DAF rear wheel
 
 ### CREDITS
 
 - 50keda
-- Ventyres
+- Ventyres - for base alcoa rims
+- abasstreppas - for base steel rims
 
 ### SOFTWARE USED
 
@@ -23,5 +32,5 @@ Wheels Pack by 50keda featuring:
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.19.2.1s.
+It was tested on 1.20.1s.
 
