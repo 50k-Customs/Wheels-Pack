@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_rim_data : 50k.steel11.daf.sr.rim
+accessory_rim_data : 50k.steel11.daf.sr.rrim
 {
 	name: "50k customs: steel 11' SR DAF"
 	price: 644
