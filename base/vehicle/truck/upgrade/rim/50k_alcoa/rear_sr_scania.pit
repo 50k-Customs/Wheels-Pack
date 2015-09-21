@@ -7,7 +7,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.6.792edf5"
+    Source: "Blender 2.75.0 (hash: c27589e), SCS Blender Tools: 0.6.4a602d1"
     Type: "Trait"
     Name: "rear_sr_scania"
 }
@@ -19,6 +19,42 @@ Global {
 }
 Look {
     Name: "default"
+    Material {
+        Alias: "alcoa_logo"
+        Effect: "eut2.dif.over"
+        Flags: 1
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.0 0.0 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 50.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/rim/50k_alcoa/alcoa_logo"
+        }
+    }
     Material {
         Alias: "axle_scania"
         Effect: "eut2.dif.spec.tsnmapuv"
@@ -57,6 +93,18 @@ Look {
         Texture {
             Tag: "texture[1]:texture_base"
             Value: "/vehicle/truck/upgrade/rim/50k_shared/axle_scania_r"
+        }
+    }
+    Material {
+        Alias: "shadowonly"
+        Effect: "eut2.shadowonly"
+        Flags: 0
+        AttributeCount: 1
+        TextureCount: 0
+        Attribute {
+            Format: FLOAT
+            Tag: "shadow_bias"
+            Value: ( 0.0 )
         }
     }
     Material {
@@ -103,6 +151,92 @@ Look {
         Texture {
             Tag: "texture[0]:texture_base"
             Value: "/vehicle/truck/upgrade/rim/50k_alcoa/rim"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+    }
+    Material {
+        Alias: "plastic"
+        Effect: "eut2.dif.spec"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.25 0.25 0.25 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 25.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/rim/50k_alcoa/plastic"
+        }
+    }
+    Material {
+        Alias: "paint"
+        Effect: "eut2.dif.spec.add.env.paint"
+        Flags: 0
+        AttributeCount: 7
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 250.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.25 0.25 0.25 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.20000000298023224 0.8999999761581421 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/rim/50k_alcoa/safety_ring"
         }
         Texture {
             Tag: "texture[1]:texture_reflection"
@@ -160,140 +294,6 @@ Look {
         }
         Texture {
             Tag: "texture[2]:texture_reflection"
-            Value: "/material/environment/vehicle_reflection"
-        }
-    }
-    Material {
-        Alias: "plastic"
-        Effect: "eut2.dif.spec"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.25 0.25 0.25 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 25.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/upgrade/rim/50k_alcoa/plastic"
-        }
-    }
-    Material {
-        Alias: "shadowonly"
-        Effect: "eut2.shadowonly"
-        Flags: 0
-        AttributeCount: 1
-        TextureCount: 0
-        Attribute {
-            Format: FLOAT
-            Tag: "shadow_bias"
-            Value: ( 0.0 )
-        }
-    }
-    Material {
-        Alias: "alcoa_logo"
-        Effect: "eut2.dif.over"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.0 0.0 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 50.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/upgrade/rim/50k_alcoa/alcoa_logo"
-        }
-    }
-    Material {
-        Alias: "paint"
-        Effect: "eut2.dif.spec.add.env.paint"
-        Flags: 0
-        AttributeCount: 7
-        TextureCount: 2
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 250.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "env_factor"
-            Value: ( 0.25 0.25 0.25 )
-        }
-        Attribute {
-            Format: FLOAT2
-            Tag: "fresnel"
-            Value: ( 0.20000000298023224 0.8999999761581421 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/upgrade/rim/50k_alcoa/safety_ring"
-        }
-        Texture {
-            Tag: "texture[1]:texture_reflection"
             Value: "/material/environment/vehicle_reflection"
         }
     }

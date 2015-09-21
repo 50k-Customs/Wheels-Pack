@@ -7,7 +7,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5"
+    Source: "Blender 2.75.0 (hash: c27589e), SCS Blender Tools: 0.6.4a602d1"
     Type: "Trait"
     Name: "rear_mb"
 }
@@ -22,7 +22,7 @@ Look {
     Material {
         Alias: "alcoa_logo"
         Effect: "eut2.dif.over"
-        Flags: 0
+        Flags: 1
         AttributeCount: 5
         TextureCount: 1
         Attribute {
@@ -53,6 +53,58 @@ Look {
         Texture {
             Tag: "texture[0]:texture_base"
             Value: "/vehicle/truck/upgrade/rim/50k_alcoa/alcoa_logo"
+        }
+    }
+    Material {
+        Alias: "axle_mb"
+        Effect: "eut2.dif.spec.tsnmapuv"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.4392569959163666 0.4805290102958679 0.4969159960746765 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 25.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/rim/50k_shared/axle_mb_r_n"
+        }
+        Texture {
+            Tag: "texture[1]:texture_base"
+            Value: "/vehicle/truck/upgrade/rim/50k_shared/axle_mb_r"
+        }
+    }
+    Material {
+        Alias: "shadowonly"
+        Effect: "eut2.shadowonly"
+        Flags: 0
+        AttributeCount: 1
+        TextureCount: 0
+        Attribute {
+            Format: FLOAT
+            Tag: "shadow_bias"
+            Value: ( 0.0 )
         }
     }
     Material {
@@ -103,6 +155,42 @@ Look {
         Texture {
             Tag: "texture[1]:texture_reflection"
             Value: "/material/environment/vehicle_reflection"
+        }
+    }
+    Material {
+        Alias: "plastic"
+        Effect: "eut2.dif.spec"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.25 0.25 0.25 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 25.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/rim/50k_alcoa/plastic"
         }
     }
     Material {
@@ -159,106 +247,9 @@ Look {
             Value: "/material/environment/vehicle_reflection"
         }
     }
-    Material {
-        Alias: "plastic"
-        Effect: "eut2.dif.spec"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.25 0.25 0.25 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 25.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/upgrade/rim/50k_alcoa/plastic"
-        }
-    }
-    Material {
-        Alias: "shadowonly"
-        Effect: "eut2.shadowonly"
-        Flags: 0
-        AttributeCount: 1
-        TextureCount: 0
-        Attribute {
-            Format: FLOAT
-            Tag: "shadow_bias"
-            Value: ( 0.0 )
-        }
-    }
-    Material {
-        Alias: "axle_mb"
-        Effect: "eut2.dif.spec.tsnmapuv"
-        Flags: 0
-        AttributeCount: 5
-        TextureCount: 2
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.4392569959163666 0.4805290102958679 0.4969159960746765 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 25.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/upgrade/rim/50k_shared/axle_mb_r_n"
-        }
-        Texture {
-            Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/upgrade/rim/50k_shared/axle_mb_r"
-        }
-    }
 }
 Variant {
     Name: "left"
-    Part {
-        Name: "l"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 1 )
-        }
-    }
     Part {
         Name: "r"
         AttributeCount: 1
@@ -266,27 +257,36 @@ Variant {
             Format: INT
             Tag: "visible"
             Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "l"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
         }
     }
 }
 Variant {
     Name: "right"
     Part {
-        Name: "l"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
         Name: "r"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
             Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "l"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
         }
     }
 }
