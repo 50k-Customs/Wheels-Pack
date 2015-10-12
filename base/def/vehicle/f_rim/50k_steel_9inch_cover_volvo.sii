@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_rim_data : 50k.steel9.cover.volvo.frim
+{
+	name: "50k customs: steel 9' VOLVO Cover"
+	price: 594
+	unlock: 5
+	model: "/vehicle/truck/upgrade/rim/50k_steel_9inch/front_cover.pmd"
+	look: "volvo"
+	icon: "50k_steel9_f"
+	front_rim: true
+}
+}

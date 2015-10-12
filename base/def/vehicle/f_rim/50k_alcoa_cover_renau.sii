@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_rim_data : 50k.alcoa_renau.cover.frim
+{
+	name: "50k customs: ALCOA RENAULT Cover"
+	price: 1044
+	unlock: 8
+	model: "/vehicle/truck/upgrade/rim/50k_alcoa/front_cover.pmd"
+	look: "renault"
+	icon: "50k_alcoa_sr_f"
+	front_rim: true
+}
+}
