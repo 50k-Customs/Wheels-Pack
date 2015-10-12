@@ -7,7 +7,7 @@ accessory_rim_data : 50k.steel11.daf.cover.frim
 	unlock: 6
 	model: "/vehicle/truck/upgrade/rim/50k_steel_11inch/front_cover.pmd"
 	look: "daf"
-	icon: "50k_steel11_f"
+	icon: "50k_steel11_cover_f"
 	front_rim: true
 }
 }

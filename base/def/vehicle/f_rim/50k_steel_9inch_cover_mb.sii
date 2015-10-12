@@ -7,7 +7,7 @@ accessory_rim_data : 50k.steel9.cover.mb.frim
 	unlock: 5
 	model: "/vehicle/truck/upgrade/rim/50k_steel_9inch/front_cover.pmd"
 	look: "mb"
-	icon: "50k_steel9_f"
+	icon: "50k_steel9_cover_f"
 	front_rim: true
 }
 }

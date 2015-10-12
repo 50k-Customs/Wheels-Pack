@@ -7,7 +7,7 @@ accessory_rim_data : 50k.alcoa_mb.cover.frim
 	unlock: 8
 	model: "/vehicle/truck/upgrade/rim/50k_alcoa/front_cover.pmd"
 	look: "mb"
-	icon: "50k_alcoa_sr_f"
+	icon: "50k_alcoa_cover_f"
 	front_rim: true
 }
 }
