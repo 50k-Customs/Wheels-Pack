@@ -10,6 +10,8 @@ ALCOA:
 STEEL:
 ![](/preview/promo_2_0.jpg?raw=true "2.0 promo")
 
+HUB COVER:
+![](/preview/promo_3_0.jpg?raw=true "3.0 promo")
 
 ### USAGE
 
@@ -38,7 +40,7 @@ If you found bug or you have any reference material of truck wheels please use I
 
 ### ISSUES
 
-For now none. It was tested on 1.20.1s game version
+For now none. It was tested on 1.21.1s game version
 
 
 ### TODO
