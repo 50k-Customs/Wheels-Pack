@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_wheel_data : 50k.315_60_mich.ftire
+{
+	name: "50k customs: MICH 315/60"
+	price: 1200
+	unlock: 6
+	model: "/vehicle/truck/upgrade/tire/50k_front/315_60.pmd"
+	icon: "50k_tyre_mich_f"
+	front_wheel:true
+	look: mich
+	
+@include "/def/vehicle/f_tire/50k_ftire_suitable.sui"
+
+}
+}

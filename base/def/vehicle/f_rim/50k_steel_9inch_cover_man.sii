@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_rim_data : 50k.steel9.cover.man.frim
+accessory_rim_data : 50k.steel9.man.cover.frim
 {
 	name: "50k customs: steel 9' MAN Cover"
 	price: 594

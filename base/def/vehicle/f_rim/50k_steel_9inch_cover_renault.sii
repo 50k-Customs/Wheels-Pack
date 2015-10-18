@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_rim_data : 50k.steel9.cover.renault.frim
+accessory_rim_data : 50k.steel9.renault.cover.frim
 {
 	name: "50k customs: steel 9' RENAULT Cover"
 	price: 594

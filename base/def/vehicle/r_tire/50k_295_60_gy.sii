@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_wheel_data : 50k.295_60_gy.rtire
+{
+	name: "50k customs: GOOD YEAR 295/60"
+	price: 1200
+	unlock: 6
+	model: "/vehicle/truck/upgrade/tire/50k_rear/295_60.pmd"
+	icon: "50k_tyre_gy_r"
+	front_wheel:false
+	look: gy
+	
+@include "/def/vehicle/r_tire/50k_rtire_suitable.sui"
+
+}
+}

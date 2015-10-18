@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_wheel_data : 50k.315_60_gy.ftire
+{
+	name: "50k customs: GY 315/60"
+	price: 1000
+	unlock: 6
+	model: "/vehicle/truck/upgrade/tire/50k_front/315_60.pmd"
+	icon: "50k_tyre_gy_f"
+	front_wheel:true
+	look: gy
+	
+@include "/def/vehicle/f_tire/50k_ftire_suitable.sui"
+
+}
+}

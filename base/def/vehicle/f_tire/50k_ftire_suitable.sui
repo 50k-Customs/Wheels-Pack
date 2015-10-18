@@ -5,14 +5,14 @@
 	suitable_for[]: 50k.alcoa_scania.frim
 	suitable_for[]: 50k.alcoa_iveco.frim
 	
-    suitable_for[]: 50k.alcoa_man.sr.frim
+	suitable_for[]: 50k.alcoa_man.sr.frim
 	suitable_for[]: 50k.alcoa_daf.sr.frim
 	suitable_for[]: 50k.alcoa_mb.sr.frim
 	suitable_for[]: 50k.alcoa_volvo.sr.frim
 	suitable_for[]: 50k.alcoa_scania.sr.frim
 	suitable_for[]: 50k.alcoa_iveco.sr.frim
 	
-    suitable_for[]: 50k.alcoa_man.cover.frim
+	suitable_for[]: 50k.alcoa_man.cover.frim
 	suitable_for[]: 50k.alcoa_daf.cover.frim
 	suitable_for[]: 50k.alcoa_mb.cover.frim
 	suitable_for[]: 50k.alcoa_volvo.cover.frim
@@ -27,7 +27,7 @@
 	suitable_for[]: 50k.steel9.scania.frim
 	suitable_for[]: 50k.steel9.iveco.frim
 	
-    suitable_for[]: 50k.steel9.man.sr.frim
+	suitable_for[]: 50k.steel9.man.sr.frim
 	suitable_for[]: 50k.steel9.daf.sr.frim
 	suitable_for[]: 50k.steel9.mb.sr.frim
 	suitable_for[]: 50k.steel9.volvo.sr.frim
