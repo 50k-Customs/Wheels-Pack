@@ -7,15 +7,13 @@ Wheels Pack by 50keda featuring:
  - 2 alcoa rear rim variants for each truck brand
 - featuring 7 truck brands
 - featuring 2 tyre brands
-- 3 sizes of front tyres
-- 2 sizes of rear tyres
+- 5 sizes of front tyres
+- 3 sizes of rear tyres
 
 ### CHANGELOG FOR LATEST VERSION
 
-- 2 steel front rim variants with cover for each truck brand
-- 1 alcoa front rim variant with cover for each truck brand
-- fixed alcoa rear rims screws rotation
-- finally fixed DAF unit names for rear rims
+- fixed ftire suitables for new steel wheels with covers
+- added 3 new tyre models for low deck trucks
 
 ### CREDITS
 

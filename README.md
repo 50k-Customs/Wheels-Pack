@@ -4,14 +4,17 @@ This repository is meant for wheels pack mod by 50k for Euro Truck Simulator 2.
 
 Mod presents new sets of rims and tires for the player truck in Euro Truck Simulator 2.
 
-ALCOA:
+Alcoa Rims (v1.20):
 ![](/preview/promo_120.jpg?raw=true "1.20 promo")
 
-STEEL:
+Steel Rims (v2.0):
 ![](/preview/promo_2_0.jpg?raw=true "2.0 promo")
 
-HUB COVER:
+Rim Covers (v3.0):
 ![](/preview/promo_3_0.jpg?raw=true "3.0 promo")
+
+Low Deck Tyres (v3.1):
+![](/preview/promo_3_1.jpg?raw=true "3.1 promo")
 
 ### USAGE
 
