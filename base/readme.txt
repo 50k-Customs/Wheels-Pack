@@ -1,8 +1,9 @@
 Wheels Pack by 50keda featuring:
 
-- 81 different rim models
+- 100 different rim models
  - 6 steel front rim variants for each truck brand
  - 3 alcoa front rim variants for each truck brand
+ - 3 heavy duty front rim variants for each truck brand
  - 2 steel rear rim variants for each truck brand
  - 2 alcoa rear rim variants for each truck brand
 - featuring 7 truck brands
@@ -12,8 +13,7 @@ Wheels Pack by 50keda featuring:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- fixed ftire suitables for new steel wheels with covers
-- added 3 new tyre models for low deck trucks
+- added 3 variants of heavy duty rims for all brands (16 new models)
 
 ### CREDITS
 
@@ -30,4 +30,4 @@ Wheels Pack by 50keda featuring:
 
 No known issues.
 It was tested on 1.21.1s.
-
+.

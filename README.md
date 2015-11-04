@@ -16,6 +16,10 @@ Rim Covers (v3.0):
 Low Deck Tyres (v3.1):
 ![](/preview/promo_3_1.jpg?raw=true "3.1 promo")
 
+Heavy Duty Rims (v3.2):
+![](/preview/promo_3_2#2.jpg?raw=true "3.2 second promo")
+
+
 ### USAGE
 
 Most recent direct mod download and all needed info can be found here 
@@ -48,5 +52,5 @@ For now none. It was tested on 1.21.1s game version
 
 ### TODO
 
-This is known todo list for this mod:
-- heavy duty rim
+For now no new wheel types is planned, making this mod more or less FINAL,
+except for compatibility updates.
