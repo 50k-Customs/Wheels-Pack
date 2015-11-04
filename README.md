@@ -17,7 +17,7 @@ Low Deck Tyres (v3.1):
 ![](/preview/promo_3_1.jpg?raw=true "3.1 promo")
 
 Heavy Duty Rims (v3.2):
-![](/preview/promo_3_2#2.jpg?raw=true "3.2 second promo")
+![](/preview/promo_3_2_2.jpg?raw=true "3.2 second promo")
 
 
 ### USAGE
