@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.heavy_scania.frim
+{
+	name: "50k customs: heavy SCANIA"
+	price: 1245
+	unlock: 10
+	model: "/vehicle/truck/upgrade/rim/50k_heavy/front_scania.pmd"
+	icon: "50k_heavy_f"
+	front_rim: true
+}
+}
