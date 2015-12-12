@@ -13,7 +13,7 @@ Wheels Pack by 50keda featuring:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- added 3 variants of heavy duty rims for all brands (16 new models)
+- tires mesh cleanup (cca. 300 tris per tire)
 
 ### CREDITS
 
