@@ -8,7 +8,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.75.0 (hash: c27589e), SCS Blender Tools: 0.6.79fd5ae"
+    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 0.6.4337c7e"
     Type: "Trait"
     Name: "295_60"
 }
@@ -23,7 +23,7 @@ Look {
     Material {
         Alias: "fakeshadow"
         Effect: "eut2.fakeshadow"
-        Flags: 1
+        Flags: 0
         AttributeCount: 1
         TextureCount: 0
         Attribute {
@@ -35,7 +35,7 @@ Look {
     Material {
         Alias: "shadowonly"
         Effect: "eut2.shadowonly"
-        Flags: 1
+        Flags: 0
         AttributeCount: 1
         TextureCount: 0
         Attribute {
@@ -47,7 +47,7 @@ Look {
     Material {
         Alias: "tyre"
         Effect: "eut2.dif.spec.tsnmap"
-        Flags: 1
+        Flags: 0
         AttributeCount: 5
         TextureCount: 2
         Attribute {
@@ -76,12 +76,12 @@ Look {
             Value: ( 0.0 )
         }
         Texture {
-            Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/upgrade/tire/50k_front/gy/tyre_front_nm"
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/tire/50k_front/gy/tyre_front"
         }
         Texture {
-            Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/upgrade/tire/50k_front/gy/tyre_front"
+            Tag: "texture[1]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/tire/50k_front/gy/tyre_front_nm"
         }
     }
 }
@@ -90,7 +90,7 @@ Look {
     Material {
         Alias: "fakeshadow"
         Effect: "eut2.fakeshadow"
-        Flags: 1
+        Flags: 0
         AttributeCount: 1
         TextureCount: 0
         Attribute {
@@ -102,7 +102,7 @@ Look {
     Material {
         Alias: "shadowonly"
         Effect: "eut2.shadowonly"
-        Flags: 1
+        Flags: 0
         AttributeCount: 1
         TextureCount: 0
         Attribute {
@@ -114,7 +114,7 @@ Look {
     Material {
         Alias: "tyre"
         Effect: "eut2.dif.spec.tsnmap"
-        Flags: 1
+        Flags: 0
         AttributeCount: 5
         TextureCount: 2
         Attribute {
@@ -143,12 +143,12 @@ Look {
             Value: ( 0.0 )
         }
         Texture {
-            Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/upgrade/tire/50k_front/mich/tyre_front_nm"
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/tire/50k_front/mich/tyre_front"
         }
         Texture {
-            Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/upgrade/tire/50k_front/mich/tyre_front"
+            Tag: "texture[1]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/tire/50k_front/mich/tyre_front_nm"
         }
     }
 }

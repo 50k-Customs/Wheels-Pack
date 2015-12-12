@@ -8,7 +8,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5"
+    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 0.6.4337c7e"
     Type: "Trait"
     Name: "315_80"
 }
@@ -76,12 +76,12 @@ Look {
             Value: ( 0.0 )
         }
         Texture {
-            Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/upgrade/tire/50k_rear/gy/tyre_rear_nm"
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/tire/50k_rear/gy/tyre_rear"
         }
         Texture {
-            Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/upgrade/tire/50k_rear/gy/tyre_rear"
+            Tag: "texture[1]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/tire/50k_rear/gy/tyre_rear_nm"
         }
     }
 }
@@ -143,12 +143,12 @@ Look {
             Value: ( 0.0 )
         }
         Texture {
-            Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/upgrade/tire/50k_rear/mich/tyre_rear_nm"
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/tire/50k_rear/mich/tyre_rear"
         }
         Texture {
-            Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/upgrade/tire/50k_rear/mich/tyre_rear"
+            Tag: "texture[1]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/tire/50k_rear/mich/tyre_rear_nm"
         }
     }
 }

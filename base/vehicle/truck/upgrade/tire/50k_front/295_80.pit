@@ -8,7 +8,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.5"
+    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 0.6.4337c7e"
     Type: "Trait"
     Name: "295_80"
 }
@@ -52,12 +52,12 @@ Look {
             Value: ( 0.0 )
         }
         Texture {
-            Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/upgrade/tire/50k_front/gy/tyre_front_nm"
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/tire/50k_front/gy/tyre_front"
         }
         Texture {
-            Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/upgrade/tire/50k_front/gy/tyre_front"
+            Tag: "texture[1]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/tire/50k_front/gy/tyre_front_nm"
         }
     }
     Material {
@@ -119,12 +119,12 @@ Look {
             Value: ( 0.0 )
         }
         Texture {
-            Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/upgrade/tire/50k_front/mich/tyre_front_nm"
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/tire/50k_front/mich/tyre_front"
         }
         Texture {
-            Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/upgrade/tire/50k_front/mich/tyre_front"
+            Tag: "texture[1]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/tire/50k_front/mich/tyre_front_nm"
         }
     }
     Material {
