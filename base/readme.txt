@@ -13,7 +13,7 @@ Wheels Pack by 50keda featuring:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- tires mesh cleanup (cca. 300 tris per tire)
+- new noise, wet and roll resistnace parameters added to tires
 
 ### CREDITS
 
@@ -29,5 +29,5 @@ Wheels Pack by 50keda featuring:
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.21.1s.
+It was tested on 1.22.2s.
 .
