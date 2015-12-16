@@ -9,6 +9,10 @@ accessory_wheel_data : 50k.315_80_mich.ftire
 	icon: "50k_tyre_mich_f"
 	front_wheel:true
 	look: mich
+
+	roll_resistance: 7.3
+	wet_grip: 0.75
+	noise_volume: 65
 	
 @include "/def/vehicle/f_tire/50k_ftire_suitable.sui"
 

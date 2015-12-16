@@ -9,6 +9,10 @@ accessory_wheel_data : 50k.295_80_gy.rtire
 	icon: "50k_tyre_gy_r"
 	front_wheel:false
 	look: gy
+
+	roll_resistance: 6.0
+	wet_grip: 0.5
+	noise_volume: 65
 	
 @include "/def/vehicle/r_tire/50k_rtire_suitable.sui"
 
