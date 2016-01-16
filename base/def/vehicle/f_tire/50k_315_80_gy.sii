@@ -13,8 +13,6 @@ accessory_wheel_data : 50k.315_80_gy.ftire
 	roll_resistance: 7.0
 	wet_grip: 0.6
 	noise_volume: 75
-	
-@include "/def/vehicle/f_tire/50k_ftire_suitable.sui"
 
 }
 }

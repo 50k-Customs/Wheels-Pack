@@ -8,7 +8,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 0.6.4337c7e"
+    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.0.733cd96"
     Type: "Trait"
     Name: "385_60"
 }
