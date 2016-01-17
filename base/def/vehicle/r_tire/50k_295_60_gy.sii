@@ -13,8 +13,6 @@ accessory_wheel_data : 50k.295_60_gy.rtire
 	roll_resistance: 5.5
 	wet_grip: 0.5
 	noise_volume: 65
-	
-@include "/def/vehicle/r_tire/50k_rtire_suitable.sui"
 
 }
 }

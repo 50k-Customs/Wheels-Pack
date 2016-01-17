@@ -7,7 +7,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.75.0 (hash: c27589e), SCS Blender Tools: 0.6.4a602d1"
+    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.0.733cd96"
     Type: "Trait"
     Name: "rear_sr_scania"
 }
@@ -22,7 +22,7 @@ Look {
     Material {
         Alias: "alcoa_logo"
         Effect: "eut2.dif.over"
-        Flags: 1
+        Flags: 0
         AttributeCount: 5
         TextureCount: 1
         Attribute {
@@ -87,12 +87,12 @@ Look {
             Value: ( 0.0 )
         }
         Texture {
-            Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/upgrade/rim/50k_shared/axle_scania_r_n"
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/rim/50k_shared/axle_scania_r"
         }
         Texture {
-            Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/upgrade/rim/50k_shared/axle_scania_r"
+            Tag: "texture[1]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/rim/50k_shared/axle_scania_r_n"
         }
     }
     Material {
@@ -285,16 +285,16 @@ Look {
             Value: ( 0.8999999761581421 0.10000000149011612 )
         }
         Texture {
-            Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/upgrade/rim/50k_alcoa/screws_n"
-        }
-        Texture {
-            Tag: "texture[1]:texture_base"
+            Tag: "texture[0]:texture_base"
             Value: "/vehicle/truck/upgrade/rim/50k_alcoa/rim"
         }
         Texture {
-            Tag: "texture[2]:texture_reflection"
+            Tag: "texture[1]:texture_reflection"
             Value: "/material/environment/vehicle_reflection"
+        }
+        Texture {
+            Tag: "texture[2]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/rim/50k_alcoa/screws_n"
         }
     }
 }

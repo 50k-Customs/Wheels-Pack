@@ -13,8 +13,6 @@ accessory_wheel_data : 50k.315_80_mich.rtire
 	roll_resistance: 6.3
 	wet_grip: 0.75
 	noise_volume: 65
-	
-@include "/def/vehicle/r_tire/50k_rtire_suitable.sui"
 
 }
 }
