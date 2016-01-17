@@ -13,7 +13,8 @@ Wheels Pack by 50keda featuring:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- new noise, wet and roll resistnace parameters added to tires
+- all tires and rims position synced with SCS wheels position 
+  (you can use any SCS tire and my rim or SCS rim and my tire combination without weird errors in game)
 
 ### CREDITS
 
