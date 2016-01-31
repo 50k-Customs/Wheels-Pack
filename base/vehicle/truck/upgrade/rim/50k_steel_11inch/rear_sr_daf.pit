@@ -7,7 +7,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.0.733cd96"
+    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.2.adb8259"
     Type: "Trait"
     Name: "rear_sr_daf"
 }
@@ -109,10 +109,10 @@ Look {
     }
     Material {
         Alias: "rim"
-        Effect: "eut2.dif.spec"
+        Effect: "eut2.dif.spec.mult.dif.spec.add.env"
         Flags: 0
-        AttributeCount: 5
-        TextureCount: 1
+        AttributeCount: 7
+        TextureCount: 3
         Attribute {
             Format: FLOAT3
             Tag: "diffuse"
@@ -121,12 +121,12 @@ Look {
         Attribute {
             Format: FLOAT3
             Tag: "specular"
-            Value: ( 0.7480000257492065 0.7480000257492065 0.7480000257492065 )
+            Value: ( 0.6976538896560669 0.7159810662269592 0.747999906539917 )
         }
         Attribute {
             Format: FLOAT
             Tag: "shininess"
-            Value: ( 25.0 )
+            Value: ( 11.0 )
         }
         Attribute {
             Format: FLOAT
@@ -138,9 +138,27 @@ Look {
             Tag: "reflection"
             Value: ( 0.0 )
         }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.1869041472673416 0.22018086910247803 0.2330147624015808 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 1.0 1.0 )
+        }
         Texture {
             Tag: "texture[0]:texture_base"
             Value: "/vehicle/truck/upgrade/rim/50k_steel_11inch/rim_11inch_rear"
+        }
+        Texture {
+            Tag: "texture[1]:texture_mult"
+            Value: "/vehicle/truck/upgrade/rim/50k_shared/brushed_metal"
+        }
+        Texture {
+            Tag: "texture[2]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
         }
     }
     Material {
