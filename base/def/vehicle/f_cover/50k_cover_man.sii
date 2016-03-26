@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.man.cover.fcover
+{
+	name: "50k customs: MAN Cover"
+	price: 120
+	unlock: 10
+	model: "/vehicle/truck/upgrade/wheel/cover/50k_front/brands_cover.pmd"
+	look: "man"
+	icon: "cover/50k_cover_man"
+}
+}

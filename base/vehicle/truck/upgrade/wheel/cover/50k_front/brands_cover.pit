@@ -1,0 +1,467 @@
+# Look Names:
+#	renault
+#	volvo
+#	iveco
+#	man
+#	mb
+#	scania
+#	daf
+#
+# Variant Names:
+#	left
+#	right
+#
+Header {
+    FormatVersion: 1
+    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.3.588c66f"
+    Type: "Trait"
+    Name: "brands_cover"
+}
+Global {
+    LookCount: 7
+    VariantCount: 2
+    PartCount: 2
+    MaterialCount: 1
+}
+Look {
+    Name: "renault"
+    Material {
+        Alias: "cover"
+        Effect: "eut2.dif.spec.add.env.tsnmapuv"
+        Flags: 0
+        AttributeCount: 7
+        TextureCount: 3
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 1.5 1.5 1.5 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.7356584668159485 0.7356584668159485 0.7356584668159485 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.8999999761581421 0.10000000149011612 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/wheel/cover/50k_front/cover_renault"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+        Texture {
+            Tag: "texture[2]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/wheel/cover/50k_front/cover_renault_n"
+        }
+    }
+}
+Look {
+    Name: "volvo"
+    Material {
+        Alias: "cover"
+        Effect: "eut2.dif.spec.add.env.tsnmapuv"
+        Flags: 0
+        AttributeCount: 7
+        TextureCount: 3
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 1.5 1.5 1.5 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.7356584668159485 0.7356584668159485 0.7356584668159485 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.8999999761581421 0.10000000149011612 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/wheel/cover/50k_front/cover_volvo"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+        Texture {
+            Tag: "texture[2]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/wheel/cover/50k_front/cover_volvo_n"
+        }
+    }
+}
+Look {
+    Name: "iveco"
+    Material {
+        Alias: "cover"
+        Effect: "eut2.dif.spec.add.env.tsnmapuv"
+        Flags: 0
+        AttributeCount: 7
+        TextureCount: 3
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 1.5 1.5 1.5 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.7356584668159485 0.7356584668159485 0.7356584668159485 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.8999999761581421 0.10000000149011612 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/wheel/cover/50k_front/cover_iveco"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+        Texture {
+            Tag: "texture[2]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/wheel/cover/50k_front/cover_iveco_n"
+        }
+    }
+}
+Look {
+    Name: "man"
+    Material {
+        Alias: "cover"
+        Effect: "eut2.dif.spec.add.env.tsnmapuv"
+        Flags: 0
+        AttributeCount: 7
+        TextureCount: 3
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 1.5 1.5 1.5 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.7356584668159485 0.7356584668159485 0.7356584668159485 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.8999999761581421 0.10000000149011612 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/wheel/cover/50k_front/cover_man"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+        Texture {
+            Tag: "texture[2]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/wheel/cover/50k_front/cover_man_n"
+        }
+    }
+}
+Look {
+    Name: "mb"
+    Material {
+        Alias: "cover"
+        Effect: "eut2.dif.spec.add.env.tsnmapuv"
+        Flags: 0
+        AttributeCount: 7
+        TextureCount: 3
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 1.5 1.5 1.5 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.7356584668159485 0.7356584668159485 0.7356584668159485 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.8999999761581421 0.10000000149011612 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/wheel/cover/50k_front/cover_mb"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+        Texture {
+            Tag: "texture[2]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/wheel/cover/50k_front/cover_mb_n"
+        }
+    }
+}
+Look {
+    Name: "scania"
+    Material {
+        Alias: "cover"
+        Effect: "eut2.dif.spec.add.env.tsnmapuv"
+        Flags: 0
+        AttributeCount: 7
+        TextureCount: 3
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 1.5 1.5 1.5 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.7356584668159485 0.7356584668159485 0.7356584668159485 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.8999999761581421 0.10000000149011612 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/wheel/cover/50k_front/cover_scania"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+        Texture {
+            Tag: "texture[2]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/wheel/cover/50k_front/cover_scania_n"
+        }
+    }
+}
+Look {
+    Name: "daf"
+    Material {
+        Alias: "cover"
+        Effect: "eut2.dif.spec.add.env.tsnmapuv"
+        Flags: 0
+        AttributeCount: 7
+        TextureCount: 3
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 1.5 1.5 1.5 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.7356584668159485 0.7356584668159485 0.7356584668159485 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.8999999761581421 0.10000000149011612 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/wheel/cover/50k_front/cover_daf"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+        Texture {
+            Tag: "texture[2]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/wheel/cover/50k_front/cover_daf_n"
+        }
+    }
+}
+Variant {
+    Name: "left"
+    Part {
+        Name: "r"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "l"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+}
+Variant {
+    Name: "right"
+    Part {
+        Name: "r"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "l"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+}
+

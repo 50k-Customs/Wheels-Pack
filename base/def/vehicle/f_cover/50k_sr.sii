@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.sr.fcover
+{
+	name: "50k customs: safety ring"
+	price: 100
+	unlock: 5
+	model: "/vehicle/truck/upgrade/wheel/cover/50k_front/safety_ring.pmd"
+	icon: "cover/50k_safety_ring"
+	paintable: true
+}
+}

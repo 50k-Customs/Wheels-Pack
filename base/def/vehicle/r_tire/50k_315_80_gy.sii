@@ -5,9 +5,8 @@ accessory_wheel_data : 50k.315_80_gy.rtire
 	name: "50k customs: GOOD YEAR 315/80"
 	price: 1600
 	unlock: 8
-	model: "/vehicle/truck/upgrade/tire/50k_rear/315_80.pmd"
+	model: "/vehicle/truck/upgrade/wheel/tire/50k_rear/315_80.pmd"
 	icon: "50k_tyre_gy_r"
-	front_wheel:false
 	look: gy
 
 	roll_resistance: 6.0

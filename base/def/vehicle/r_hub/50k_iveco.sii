@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_rim_data : 50k.iveco.rhub
+{
+	name: "50k customs: IVECO"
+	price: 614
+	unlock: 0
+	model: "/vehicle/truck/upgrade/wheel/hub/50k_rear/iveco.pmd"
+	icon: "hub/50k_iveco_r"
+}
+}

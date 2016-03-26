@@ -5,9 +5,8 @@ accessory_wheel_data : 50k.295_80_gy.ftire
 	name: "50k customs: GY 295/80"
 	price: 1000
 	unlock: 6
-	model: "/vehicle/truck/upgrade/tire/50k_front/295_80.pmd"
+	model: "/vehicle/truck/upgrade/wheel/tire/50k_front/295_80.pmd"
 	icon: "50k_tyre_gy_f"
-	front_wheel:true
 	look: gy
 
 	roll_resistance: 5.5

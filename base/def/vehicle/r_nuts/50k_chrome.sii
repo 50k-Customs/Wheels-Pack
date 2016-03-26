@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_rim_data : 50k.chrome.rnuts
+{
+	name: "50k Customs: Chrome"
+	price: 160
+	unlock: 10
+	model: "/vehicle/truck/upgrade/wheel/nuts/50k_rear/chrome_rear.pmd"
+	icon: "nuts/50k_chrome"
+}
+}

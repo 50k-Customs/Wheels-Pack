@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.renault.cover.fcover
+{
+	name: "50k customs: Renault Cover"
+	price: 120
+	unlock: 10
+	model: "/vehicle/truck/upgrade/wheel/cover/50k_front/brands_cover.pmd"
+	look: "renault"
+	icon: "cover/50k_cover_renault"
+}
+}

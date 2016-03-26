@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.steel.9inch.fdisc
+{
+	name: "50k customs: steel 9'"
+	price: 544
+	unlock: 4
+	model: "/vehicle/truck/upgrade/wheel/disc/50k_steel_9inch/front_9inch.pmd"
+	icon: "disc/50k_steel_9inch_f"
+ 	tire_shift: 0.0029
+}
+}

@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.heavy.fdisc
+{
+	name: "50k customs: heavy"
+	price: 1145
+	unlock: 10
+	model: "/vehicle/truck/upgrade/wheel/disc/50k_heavy/front_heavy.pmd"
+	icon: "disc/50k_heavy_f"
+ 	tire_shift: -0.0709
+}
+}

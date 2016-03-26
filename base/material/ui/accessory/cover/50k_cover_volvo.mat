@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "50k_cover_volvo.tobj"
+	texture_name : "texture"
+}

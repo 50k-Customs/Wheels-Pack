@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.alcoa.rdisc
+{
+	name: "50k customs: ALCOA"
+	price: 1044
+	unlock: 6
+	model: "/vehicle/truck/upgrade/wheel/disc/50k_alcoa/rear_alcoa.pmd"
+	icon: "disc/50k_alcoa_r"
+ 	tire_shift: -0.0119
+}
+}

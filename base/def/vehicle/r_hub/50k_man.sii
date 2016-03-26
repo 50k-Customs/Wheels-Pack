@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_rim_data : 50k.man.rhub
+{
+	name: "50k customs: MAN"
+	price: 614
+	unlock: 0
+	model: "/vehicle/truck/upgrade/wheel/hub/50k_rear/man.pmd"
+	icon: "hub/50k_man_r"
+}
+}

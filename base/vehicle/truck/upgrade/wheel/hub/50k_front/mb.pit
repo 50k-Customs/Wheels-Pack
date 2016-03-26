@@ -1,0 +1,105 @@
+# Look Names:
+#	default
+#
+# Variant Names:
+#	left
+#	right
+#
+Header {
+    FormatVersion: 1
+    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.3.588c66f"
+    Type: "Trait"
+    Name: "mb"
+}
+Global {
+    LookCount: 1
+    VariantCount: 2
+    PartCount: 2
+    MaterialCount: 1
+}
+Look {
+    Name: "default"
+    Material {
+        Alias: "axle_mb"
+        Effect: "eut2.dif.spec.tsnmapuv"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.4392569959163666 0.4805290102958679 0.4969159960746765 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 25.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/wheel/hub/50k_front/axle_mb"
+        }
+        Texture {
+            Tag: "texture[1]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/wheel/hub/50k_front/axle_mb_n"
+        }
+    }
+}
+Variant {
+    Name: "left"
+    Part {
+        Name: "l"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "r"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+}
+Variant {
+    Name: "right"
+    Part {
+        Name: "l"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "r"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+}
+

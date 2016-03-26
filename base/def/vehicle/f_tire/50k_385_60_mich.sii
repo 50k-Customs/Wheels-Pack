@@ -5,9 +5,8 @@ accessory_wheel_data : 50k.385_60_mich.ftire
 	name: "50k customs: MICH 385/60"
 	price: 2000
 	unlock: 10
-	model: "/vehicle/truck/upgrade/tire/50k_front/385_60.pmd"
+	model: "/vehicle/truck/upgrade/wheel/tire/50k_front/385_60.pmd"
 	icon: "50k_tyre_mich_f"
-	front_wheel:true
 	look: mich
 
 	roll_resistance: 8.3

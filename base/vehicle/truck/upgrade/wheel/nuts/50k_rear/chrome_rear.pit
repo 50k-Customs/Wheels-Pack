@@ -1,0 +1,155 @@
+# Look Names:
+#	default
+#
+# Variant Names:
+#	left
+#	right
+#
+Header {
+    FormatVersion: 1
+    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.3.588c66f"
+    Type: "Trait"
+    Name: "chrome_rear"
+}
+Global {
+    LookCount: 1
+    VariantCount: 2
+    PartCount: 2
+    MaterialCount: 2
+}
+Look {
+    Name: "default"
+    Material {
+        Alias: "screws_chrome"
+        Effect: "eut2.dif.spec.add.env.tsnmapuv"
+        Flags: 0
+        AttributeCount: 7
+        TextureCount: 3
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 1.5 1.5 1.5 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 95.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.8970926403999329 0.8970926403999329 0.8970926403999329 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.8999999761581421 0.10000000149011612 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/wheel/nuts/50k_shared/screws"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+        Texture {
+            Tag: "texture[2]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/wheel/nuts/50k_shared/screws_n"
+        }
+    }
+    Material {
+        Alias: "screws_shdow"
+        Effect: "eut2.dif.spec.over"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.0 0.0 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 2.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/wheel/nuts/50k_shared/screws"
+        }
+    }
+}
+Variant {
+    Name: "left"
+    Part {
+        Name: "r"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "l"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+}
+Variant {
+    Name: "right"
+    Part {
+        Name: "r"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "l"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+}
+

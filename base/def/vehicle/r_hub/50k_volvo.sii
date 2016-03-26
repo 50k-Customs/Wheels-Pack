@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_rim_data : 50k.volvo.rhub
+{
+	name: "50k customs: Volvo"
+	price: 614
+	unlock: 0
+	model: "/vehicle/truck/upgrade/wheel/hub/50k_rear/volvo.pmd"
+	icon: "hub/50k_volvo_r"
+}
+}

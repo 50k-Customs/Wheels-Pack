@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_rim_data : 50k.scania.rhub
+{
+	name: "50k customs: SCANIA"
+	price: 614
+	unlock: 0
+	model: "/vehicle/truck/upgrade/wheel/hub/50k_rear/scania.pmd"
+	icon: "hub/50k_scania_r"
+}
+}

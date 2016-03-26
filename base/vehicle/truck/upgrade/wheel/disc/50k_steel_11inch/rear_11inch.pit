@@ -1,0 +1,167 @@
+# Look Names:
+#	default
+#
+# Variant Names:
+#	left
+#	right
+#
+Header {
+    FormatVersion: 1
+    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.3.588c66f"
+    Type: "Trait"
+    Name: "rear_11inch"
+}
+Global {
+    LookCount: 1
+    VariantCount: 2
+    PartCount: 2
+    MaterialCount: 3
+}
+Look {
+    Name: "default"
+    Material {
+        Alias: "shadowonly.001"
+        Effect: "eut2.shadowonly"
+        Flags: 0
+        AttributeCount: 1
+        TextureCount: 0
+        Attribute {
+            Format: FLOAT
+            Tag: "shadow_bias"
+            Value: ( 0.0 )
+        }
+    }
+    Material {
+        Alias: "rim_11inch_rear"
+        Effect: "eut2.dif.spec.mult.dif.spec.add.env"
+        Flags: 0
+        AttributeCount: 7
+        TextureCount: 3
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 0.9653582572937012 0.9780930280685425 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.6251093745231628 0.6689322590827942 0.747999906539917 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 11.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.1869041472673416 0.22018086910247803 0.2330147624015808 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 1.0 1.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/wheel/disc/50k_steel_11inch/rim_11inch_rear"
+        }
+        Texture {
+            Tag: "texture[1]:texture_mult"
+            Value: "/vehicle/truck/upgrade/wheel/disc/50k_shared/brushed_metal"
+        }
+        Texture {
+            Tag: "texture[2]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+    }
+    Material {
+        Alias: "plastic"
+        Effect: "eut2.dif.spec.over"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.20000000298023224 0.20000000298023224 0.20000000298023224 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 25.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/wheel/disc/50k_shared/plastic"
+        }
+    }
+}
+Variant {
+    Name: "left"
+    Part {
+        Name: "r"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "l"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+}
+Variant {
+    Name: "right"
+    Part {
+        Name: "r"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "l"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+}
+

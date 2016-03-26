@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_rim_data : 50k.steel.black.rnuts
+{
+	name: "50k Customs: Black"
+	price: 80
+	unlock: 0
+	model: "/vehicle/truck/upgrade/wheel/nuts/50k_rear/steel_black_rear.pmd"
+	icon: "nuts/50k_black"
+}
+}

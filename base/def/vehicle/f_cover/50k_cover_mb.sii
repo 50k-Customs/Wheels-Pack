@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.mb.cover.fcover
+{
+	name: "50k customs: Merc-Benz Cover"
+	price: 120
+	unlock: 10
+	model: "/vehicle/truck/upgrade/wheel/cover/50k_front/brands_cover.pmd"
+	look: "mb"
+	icon: "cover/50k_cover_mb"
+}
+}
