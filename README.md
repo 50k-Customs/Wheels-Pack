@@ -19,6 +19,9 @@ Low Deck Tyres (v3.1):
 Heavy Duty Rims (v3.2):
 ![](/preview/promo_3_2_2.jpg?raw=true "3.2 second promo")
 
+Conversion to 3rd generation of wheels system (v4.0):
+![](/preview/promo_4_0_1.jpg?raw=true "4.0 second promo")
+
 
 ### USAGE
 
