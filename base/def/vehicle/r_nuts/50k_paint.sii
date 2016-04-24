@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.paint.rnuts
+{
+	name: "50k Customs: Paint"
+	price: 200
+	unlock: 12
+	model: "/vehicle/truck/upgrade/wheel/nuts/50k_rear/paint_rear.pmd"
+	icon: "nuts/50k_paint"
+	paintable: true
+}
+}
