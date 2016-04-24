@@ -22,6 +22,8 @@ Heavy Duty Rims (v3.2):
 Conversion to 3rd generation of wheels system (v4.0):
 ![](/preview/promo_4_0_1.jpg?raw=true "4.0 second promo")
 
+Paintable vairants of rims, hubs and nuts (v4.1):
+![](/preview/promo_4_1.jpg?raw=true "4.1 promo")
 
 ### USAGE
 

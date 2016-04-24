@@ -1,11 +1,11 @@
 Wheels Pack by 50keda featuring:
 
 - 100 different combinations
- - 2 steel front rim variants
- - 1 alcoa front rim variant
- - 1 heavy duty front rim variant
- - 1 steel rear rim variants
- - 1 alcoa rear rim variant
+ - 4 steel front rim variants
+ - 2 alcoa front rim variant
+ - 2 heavy duty front rim variant
+ - 2 steel rear rim variants
+ - 2 alcoa rear rim variant
  - 6 front cover variants
  - 1 paintable safety ring as front & rear cover
 - featuring 7 truck brands
@@ -15,9 +15,10 @@ Wheels Pack by 50keda featuring:
 
 ### CHANGELOG FOR LATEST VERSION
 
-- reworked aloca chrome rims
-- massive convert to 1.23 wheel system
-- new icons for easy recognition in UI
+- fixed alcoa rims offset issue intersecting fenders
+- new paintable rims
+- new paintable hubs
+- new paintable nuts
 
 ### CREDITS
 
@@ -33,5 +34,5 @@ Wheels Pack by 50keda featuring:
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.23.0.2s.
-.
+It was tested on 1.23.1.2s.
+_
