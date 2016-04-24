@@ -6,7 +6,7 @@ accessory_rim_data : 50k.alcoa_p.rdisc
 	price: 1144
 	unlock: 8
 	model: "/vehicle/truck/upgrade/wheel/disc/50k_alcoa/rear_alcoa_paint.pmd"
-	icon: "disc/50k_alcoa_r"
+	icon: "disc/50k_alcoa_r_p"
 	paintable: true
 }
 }

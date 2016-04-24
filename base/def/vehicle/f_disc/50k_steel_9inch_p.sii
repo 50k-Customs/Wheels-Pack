@@ -6,7 +6,7 @@ accessory_rim_data : 50k.steel.9inch_p.fdisc
 	price: 644
 	unlock: 6
 	model: "/vehicle/truck/upgrade/wheel/disc/50k_steel_9inch/front_9inch_paint.pmd"
-	icon: "disc/50k_steel_9inch_f"
+	icon: "disc/50k_steel_9inch_f_p"
  	tire_shift: 0.0029
 	paintable: true
 }

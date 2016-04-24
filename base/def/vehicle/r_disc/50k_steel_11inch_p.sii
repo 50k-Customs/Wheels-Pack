@@ -6,7 +6,7 @@ accessory_rim_data : 50k.steel.11inch_p.rdisc
 	price: 644
 	unlock: 7
 	model: "/vehicle/truck/upgrade/wheel/disc/50k_steel_11inch/rear_11inch_paint.pmd"
-	icon: "disc/50k_steel_11inch_r"
+	icon: "disc/50k_steel_11inch_r_p"
  	tire_shift: 0.00735
 	paintable: true
 }
