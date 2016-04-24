@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_rim_data : 50k.heavy_p.fdisc
+{
+	name: "50k customs: Paint heavy"
+	price: 1245
+	unlock: 12
+	model: "/vehicle/truck/upgrade/wheel/disc/50k_heavy/front_heavy_paint.pmd"
+	icon: "disc/50k_heavy_f"
+ 	tire_shift: -0.0709
+	paintable: true
+}
+}

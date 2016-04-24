@@ -7,7 +7,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.3.588c66f"
+    Source: "Blender 2.77.0 (hash: abf6f08), SCS Blender Tools: 1.3.588c66f"
     Type: "Trait"
     Name: "rear_alcoa"
 }

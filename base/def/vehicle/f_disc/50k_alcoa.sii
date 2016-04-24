@@ -7,6 +7,6 @@ accessory_rim_data : 50k.alcoa.fdisc
 	unlock: 8
 	model: "/vehicle/truck/upgrade/wheel/disc/50k_alcoa/front_alcoa.pmd"
 	icon: "disc/50k_alcoa_f"
- 	tire_shift: -0.0598466
+ 	tire_shift: -0.0578466
 }
 }

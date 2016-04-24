@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_rim_data : 50k.alcoa_p.fdisc
+{
+	name: "50k customs: Paint ALCOA"
+	price: 1244
+	unlock: 10
+	model: "/vehicle/truck/upgrade/wheel/disc/50k_alcoa/front_alcoa_paint.pmd"
+	icon: "disc/50k_alcoa_f"
+ 	tire_shift: -0.0578466
+	paintable: true
+}
+}

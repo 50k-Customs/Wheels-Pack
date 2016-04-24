@@ -2,7 +2,7 @@ SiiNunit
 {
 accessory_rim_data : 50k.steel.11inch.rdisc
 {
-	name: "50k customs: steel 11'"
+	name: "50k customs: Steel 11'"
 	price: 544
 	unlock: 5
 	model: "/vehicle/truck/upgrade/wheel/disc/50k_steel_11inch/rear_11inch.pmd"
