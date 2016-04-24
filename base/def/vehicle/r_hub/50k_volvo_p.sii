@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.volvo_p.rhub
+{
+	name: "50k customs: Paint Volvo"
+	price: 714
+	unlock: 2
+	model: "/vehicle/truck/upgrade/wheel/hub/50k_rear/volvo_paint.pmd"
+	icon: "hub/50k_volvo_r_p"
+	paintable: true
+}
+}

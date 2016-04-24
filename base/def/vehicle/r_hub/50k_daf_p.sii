@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.daf_p.rhub
+{
+	name: "50k customs: Paint DAF"
+	price: 714
+	unlock: 2
+	model: "/vehicle/truck/upgrade/wheel/hub/50k_rear/daf_paint.pmd"
+	icon: "hub/50k_daf_r_p"
+	paintable: true
+}
+}

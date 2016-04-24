@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.man_p.rhub
+{
+	name: "50k customs: Paint MAN"
+	price: 714
+	unlock: 2
+	model: "/vehicle/truck/upgrade/wheel/hub/50k_rear/man_paint.pmd"
+	icon: "hub/50k_man_r_p"
+	paintable: true
+}
+}

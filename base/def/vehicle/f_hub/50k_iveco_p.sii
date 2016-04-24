@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.iveco_p.fhub
+{
+	name: "50k customs: Paint IVECO"
+	price: 686
+	unlock: 2
+	model: "/vehicle/truck/upgrade/wheel/hub/50k_front/iveco_paint.pmd"
+	icon: "hub/50k_iveco_f_p"
+	paintable: true
+}
+}

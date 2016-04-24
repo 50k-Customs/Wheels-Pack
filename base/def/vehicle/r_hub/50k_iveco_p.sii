@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_rim_data : 50k.iveco_p.rhub
+{
+	name: "50k customs: Paint IVECO"
+	price: 714
+	unlock: 2
+	model: "/vehicle/truck/upgrade/wheel/hub/50k_rear/iveco_paint.pmd"
+	icon: "hub/50k_iveco_r_p"
+	paintable: true
+}
+}

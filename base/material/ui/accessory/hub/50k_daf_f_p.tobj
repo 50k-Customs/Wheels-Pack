@@ -1,0 +1,3 @@
+map	2d	50k_daf_f_p.tga
+addr	clamp_to_edge	clamp_to_edge
+usage   ui
