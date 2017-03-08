@@ -12,13 +12,13 @@ Wheels Pack by 50keda featuring:
 - featuring 2 tyre brands
 - 5 sizes of front tyres
 - 3 sizes of rear tyres
+- paintable rims
+- paintable hubs
+- paintable nuts
 
 ### CHANGELOG FOR LATEST VERSION
 
-- fixed alcoa rims offset issue intersecting fenders
-- new paintable rims
-- new paintable hubs
-- new paintable nuts
+- reconversion for 1.27
 
 ### CREDITS
 
@@ -34,5 +34,5 @@ Wheels Pack by 50keda featuring:
 ### KNOWN ISSUES
 
 No known issues.
-It was tested on 1.23.1.2s.
+It was tested on 1.27.0.2s.
 _
